@@ -20,12 +20,12 @@ function App() {
     if(mode==='light'){
       setmode('dark')
       document.body.style.backgroundColor = '#343a40'
-      document.title='hello'
+      document.title='Text-Checker'
     }
     else{
       setmode('light')
       document.body.style.backgroundColor = 'white'
-      document.title='hihi'
+      document.title='Text-Checker'
     } 
   }
   return (
